@@ -1,9 +1,10 @@
-import UnderlineLink from "@modules/common/components/underline-link"
 import Image from "next/image"
+import PostCodeInput from "../PostCodeInput/PostCodeInput"
 
 const Hero = () => {
   return (
     <div className="h-[90vh] w-full relative">
+      <PostCodeInput />
       <div className="text-white absolute inset-0 z-10 flex flex-col justify-center items-center text-center small:text-left small:justify-end small:items-start small:p-32">
         <h1 className="text-2xl-semi mb-4 drop-shadow-md shadow-black">
           Find your new favourite today
