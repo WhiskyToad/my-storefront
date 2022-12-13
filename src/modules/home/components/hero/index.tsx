@@ -10,7 +10,8 @@ const Hero = () => {
           Find your new favourite today
         </h1>
         <p className="text-base-regular max-w-[32rem] mb-6 drop-shadow-md shadow-black">
-        Find your friendly neighborhood grocery. Food shopping has never been this fun! Local treasures await you.
+          Find your friendly neighborhood grocery. Food shopping has never been
+          this fun! Local treasures await you.
         </p>
       </div>
       <Image
